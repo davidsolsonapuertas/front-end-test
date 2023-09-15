@@ -9,11 +9,9 @@ app.use(cors({
   origin: '*'
 }));
 
-// Configuração do WebSocket
 app.ws('/', (ws, req) => {
   console.log('Client connected to WebSocket');
 
-  // Enviar uma mensagem a cada 10 segundos
   const intervalId = setInterval(() => {
     ws.send(Math.floor(Math.random() * (9999999 - 1000000 + 1)) + 1000000);
   }, 100);
