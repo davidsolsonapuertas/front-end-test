@@ -18,4 +18,5 @@ Change the number color under the following conditions:
 
 ## Run websocket server
 > npm i
+> 
 > node ./index.js 
