@@ -12,9 +12,8 @@ Change the number color under the following conditions:
 ## Requirements
 * NextJS 13
 * Tailwindcss
-* Redux
-
-## Optional
+* Redux Toolkit
+* Typescript
 * Redux middleware to integrate websocket
 
 ## Run websocket server
